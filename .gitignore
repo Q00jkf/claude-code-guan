@@ -1,0 +1,73 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Output files (use output/ directory instead)
+*.csv
+*.json
+*.xlsx
+output/
+
+# Backup files
+backup_*
+*.bak
+*.backup
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Claude Code specific
+.claude/
+.claude.json.backup
+
+# SSH keys and sensitive files
+.ssh/
+*.pem
+*.key
+id_*
+
+# NPM cache (too large for GitHub)
+.npm/
+node_modules/
+
+# Other large directories
+.cache/
